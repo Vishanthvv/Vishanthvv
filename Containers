@@ -1,0 +1,57 @@
+Why containers?
+
+Move Faster
+Automate More
+Increased reliability
+For less money
+
+They are a technology that allows you to run a software on a variety of systems, including a developers laptop to a production system
+This speeds up deployment, simplifies automation and ensure your code can run consistenlt on a production node as well as everywhere else
+VM can host a software at a time where as many containers which is having different softwares can run on a single VM 
+
+Orchestration -
+
+Simply refers to processes used to manage containers
+
+Zero downtime deployments -
+
+Spinup containers running the new code
+When they are fully up, direct user traffic to the new containers
+Remove the old containers running the old code
+
+Orchestration tools will do the above steps by automation
+
+What are containers used for?
+
+Software portability - Running software consistently on different machines
+Isoloation - Good security, It will isolate software separate from on another
+Scaling - Increasing/decreasing the resources (Ex- AWS Auto scaling)
+Automation - saves money and time
+Efficient resource utilization - Saves money
+
+Advanatges of containers
+
+The isolation and portability of VMs
+More light-weight than VMs - Less resource usage
+Faster than VMs - Containers can start in seconds not minutes
+Smaller than VMs - Containes images can be measured in MBs not GBs
+
+Limitations of containers
+
+Less felxibility - You cant run a windows container on a linuc machine yet
+
+
+What is DOCKER
+
+Is primarily a container run time
+At its core, docker allows you to run containers on systems
+
+
+
+
+
+
+
+ 
+
+
