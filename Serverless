@@ -9,4 +9,44 @@ BaaS - Backend as a service
 FaaS - Function as a service
 API Gateways
 
+Classic approach
 
+A multi-tier architecture is a runtime archtecture for client-server applications composed of tiers. Common tiers include presentation, application and data
+
+Presenation - Static content from website
+Application - Business logic that has been rendered into a code
+Data - File storage or a database contains persistent application information
+
+BaaS - Backend as a service
+BaaS - It is a cloud service model where server-side logic and state are hosted by a cloud provider and utilized by client applications 
+running via a web browser or mobile interface
+
+BaaS was popularized by the explosion of mobile based applications
+The backed is hosted in the cloud and acted upon via web accessible application program interface (API)
+Common funcionality can be utilized from cloud service provider for example authentication, DB management and data storage
+
+BaaS is the foundation of serverless
+
+FaaS - Function as a service.
+
+FaaS differs dramatically from BaaS in that you can provide your own code to be executed in the cloud by event-triggered containers that are 
+dynamically allocated and ephemeral in nature.
+You do not fire up your application and let it wait for a request. You application only exists when it is triggered. The trigger is an event you define
+This is starting to sound serverless. There is no server humming in a DC with your code on it so to speak. Once triggered a generic container runs tour code
+
+Once your cide is executed, the conatiner will be destroyed automatically
+
+
+Serverless Architecture
+
+A runtime architecture whereby the infrastructure is completely managed by Cloud service provider and resources are dynamically allocated on demand 
+for a given unit of business logic
+
+The key for serverless application is that the application runs on an ethereal phantom infrastructure that exists, yet does not exist.
+Serverless does use server, but the beautiful part is that you do not have to worry about those servers, vpc, complex network routing rules etc
+The CSP takes care about those details, leaving you to focus on what you are tyrying to ship basically the code
+
+
+Sporadically used business logic, like an application that sees high usage only a few times a month
+Lightweight applications that perform straightforward tasks
+Small shop IT that wants to avoid infra management
